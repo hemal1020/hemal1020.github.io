@@ -1,0 +1,375 @@
+.section1 .carousel-indicators li {
+    
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: 2px solid #766df4;
+    margin: 0 8px;
+  }
+  .section1 .carousel-indicators .active {
+    background: #766df4;
+  }
+
+     /* section 1 */
+.section1{
+padding: 10% 5% 13%;
+background: linear-gradient(to bottom, #766df4 0%, #ffffff 100%);
+
+}
+.div-cont{
+    padding-bottom: 150px;
+}
+.content{
+    background: #fff;
+    height: 450px;
+    width: 380px;
+    margin: auto;
+    border: 1px solid #9b9a9a;
+    border-radius: 15px;
+}
+.human-img{
+    width: 378px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.human-h2{
+    color: #343a40;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+    /* section 2 */
+.section2{
+ text-align: center;
+ padding: 20px;
+}
+.top-rate-h1{
+    color: #343a40;
+    font-weight: bold;
+  
+}
+h6,h5{
+    font-weight: bold;
+    color: #343a40;
+    line-height: 1.5;
+}
+h5{
+    color:#c33764;
+}
+p{
+    color: #343a40;
+    
+}
+
+.cart{
+   
+    text-align: center;
+    height: 85%;
+    width: 97%;
+    border: 1px solid #d4d3d3;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+   
+}
+.cart:hover{
+    border:1px solid #93bcf1;
+    box-shadow: 3px 3px 3px #e5e9f0;
+}
+.pro-img{
+    width: 90%;
+    margin-top: 20px;
+}
+.p{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.futer{
+  
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 20px;
+   
+}
+.star{
+    color: #ffb15c;
+    font-size: 0.9rem;
+    margin-left: 15px;
+}
+.heart-craft{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-size: 1.7rem;
+    color: #766df4;
+}
+#heart{
+    color: #8f8f8f;
+    border: 2px #8f8f8f;
+    border-style: none solid none none;
+    padding-right: 10px;
+}
+#heart:hover{
+    color: #c33764;
+}
+        /*  product button */     
+ .product-btn{
+     font-size: 1.5rem;
+     font-weight: bold;
+     padding: 5px 10px;
+     color: #766df4;
+     border:1px solid #766df4;
+     border-radius: 10px;
+     background: #ffffff;   
+     margin-top: 30px;
+     margin-bottom: 50px;
+ } 
+ .product-btn:hover{
+     background: #766df4;
+     color: #fff;
+    } @media   (max-width:358px){
+        .cart{
+            height: 90%;
+            width: 100%;
+            margin-top: 0px;
+        }
+        .col-6{
+            padding: 3px;
+        }
+        .p{
+            margin-top: 0;
+        }
+        .pro-img{
+            
+            margin-top: 0px;
+        }
+        .star{
+            font-size: 70%;
+            margin-left: 5px;
+        }
+        .heart-craft{
+            position: absolute;
+            right: 15px;
+            bottom: 50px;
+            font-size: 1.2rem;
+            color: #766df4;
+        }
+        h6,.p{
+            font-size: 0.65rem;
+        }
+        h5{
+            font-size: 1rem;
+        }
+    
+     }
+  @media  (min-width:359px) and (max-width:379px){
+    .cart{
+        height: 90%;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .col-6{
+        padding: 3px;
+    }
+    .p{
+        margin-top: 0;
+    }
+    .pro-img{
+        
+        margin-top: 0px;
+    }
+    .star{
+        font-size: 70%;
+        margin-left: 5px;
+    }
+    .heart-craft{
+        position: absolute;
+        right: 15px;
+        bottom: 50px;
+        font-size: 1.2rem;
+        color: #766df4;
+    }
+    h6,.p{
+        font-size: 0.75rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+
+ }
+
+ @media  (min-width:380px) and (max-width:520px){
+    .cart{
+        height: 90%;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .pro-img{
+        width: 90%;
+        margin-top: 0px;
+    }
+    .col-6{
+        padding: 5px;
+    }
+  .p{
+      margin-top: 0;
+  }
+  h6,.p{
+    font-size: 0.8rem;
+}
+.star{
+    font-size: 85%;
+    margin-left: 5px;
+}
+.heart-craft{
+    position: absolute;
+    right: 15px;
+    bottom: 50px;
+    font-size: 1.3rem;
+    color: #766df4;
+}
+ }
+ @media  (min-width:520px) and (max-width:599px){
+    .cart{
+        height: 93%;
+        width: 100%;
+        margin-top: 10px;
+    }
+  .col-6{
+      padding: 8px;
+  }
+  .heart-craft{
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+    font-size: 1.5rem;
+    color: #766df4;
+}
+
+ }
+
+ @media  (min-width:600px) and (max-width:767px){
+      .cart{
+        height: 90%;
+        width: 90%;
+        margin-top: 20px;
+    }
+    .heart-craft{
+        position: absolute;
+        right: 55px;
+        bottom: 45px;
+        font-size: 1.7rem;
+    }
+    .p{
+        margin-top: 10px;
+       
+    }
+
+
+
+ }  
+
+@media (min-width:768px) and (max-width:991px){
+    .cart{
+        height: 90%;
+        width: 105%;
+        margin-top: 20px;
+    }
+    .heart-craft{
+        position: absolute;
+        right: 20px;
+        bottom: 45px;
+        font-size: 1.6rem;
+
+    }
+    .p{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+.star{
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+  .futer{
+      font-size: 1.3rem;
+  }
+  h6,.p{
+      font-size: 1rem;
+  }
+  .section2{
+    margin-right: 10px;
+   }
+
+
+
+  /* section 1 media*/
+  .content{
+       height: 350px;
+       width: 280px;
+  }
+  .human-img{
+    width: 278px;
+  }
+  .section1{
+    padding: 10% 1%;
+    }
+.section1 .carousel-indicators li {
+        height: 30px;
+        width: 30px;
+      }
+}
+@media (min-width:992px) and (max-width:1050px){
+    .cart{
+        height: 95%;
+         width: 110%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .heart-craft{
+        position: absolute;
+        right: 10px;
+        bottom: -5px;
+        font-size: 1.5rem;
+ 
+    }
+ 
+    .product-btn{
+        margin-left: 20px;
+    }
+
+    body{
+        text-align:center;
+    }
+    .p{
+        margin-top: 0px;
+    }
+
+        .star{
+            margin-left: 5px;
+          
+        }
+        h6,.p{
+            font-size: 0.9rem;
+        }
+        .section2{
+            margin-right: 20px;
+           }
+
+
+         /* section 1 media*/
+  .content{
+    height: 350px;
+    width: 280px;
+}
+.human-img{
+ width: 278px;
+}
+.section1{
+ padding: 10% 1%;
+ }
+
+}
+
